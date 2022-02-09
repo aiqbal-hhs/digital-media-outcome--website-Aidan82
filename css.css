@@ -1,0 +1,54 @@
+
+body {
+    color: white;
+    font-size:2vw;
+}
+
+.left{
+    background-color: black;
+}
+.ex-pg {
+    background-size:cover;
+    background-image: url(55181940.jpg)
+}
+
+.home-pg {
+    background-size:cover;
+    background-image: url(4927.jpg);
+}
+
+header {
+    color: whitesmoke;
+    
+}
+
+p {
+    border-style:solid;
+}
+
+header {
+    text-align:center;
+    font-size: 25px;
+    border-style:solid;
+    border-color:white;
+    background-color:gray;
+}
+
+right {
+    position: absolute;
+    border-style:solid;
+    background-color:gray;
+}
+
+.dropdown {
+    position: relative;
+    top: 60px;
+    background-color: gray;
+    color:white;
+    padding: 16px;
+    font-size: 16px;
+    border-color: white;
+    border-style:solid;
+}
+
+
