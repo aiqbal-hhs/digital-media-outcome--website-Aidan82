@@ -8,47 +8,94 @@ body {
     background-color: black;
 }
 .ex-pg {
-    background-size:cover;
-    background-image: url(55181940.jpg)
+    background-color: white;
 }
 
 .home-pg {
     background-size:cover;
-    background-image: url(4927.jpg);
+    background-image: url(images.jfif);
 }
 
 header {
-    color: whitesmoke;
-    
-}
-
-p {
-    border-style:solid;
-}
-
-header {
+    color: black;
     text-align:center;
     font-size: 25px;
     border-style:solid;
-    border-color:white;
-    background-color:gray;
+    border-color:black;
+    background-color:whitesmoke;
 }
+
+.button1 {
+    position: relative;
+    bottom:35;
+    right: 0;
+    font-size: 45px;
+    color:black;
+    
+}
+
 
 right {
-    position: absolute;
     border-style:solid;
-    background-color:gray;
 }
 
-.dropdown {
+
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.sec1 {
+    left: 790px;
     position: relative;
-    top: 60px;
-    background-color: gray;
-    color:white;
-    padding: 16px;
-    font-size: 16px;
+    width: 30%;
+    top: 25px;
+    color: black;
+    border-style: solid;
     border-color: white;
-    border-style:solid;
 }
 
+nav {
+    float: left;
+    border-style:solid;
+    border-color: black;
+    width: 25%;
+    height: 3000px;
+    font-size: 35px;
+    background-color: gray;
+    padding: 20px;
+}
 
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+article {
+    position: relative;
+    left: 790px;
+    bottom: 3010;
+    color: black;
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color: white;
+    height: 300px
+}
+
+.sources {
+    position: relative;
+    left: 790px;
+    bottom: 2010;
+    color: black;
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color: white;
+    height: 300px
+}
+
+footer {
+    background-color: darkgray;
+}
