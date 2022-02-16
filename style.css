@@ -1,0 +1,99 @@
+
+.indexpg {
+    background-image: url(428578.png);
+    background-size: cover;
+}
+
+.hmdr {
+    font-size: 25;
+    color: white;
+    text-align: center;
+    border-style: solid;
+    border-color: darkgreen;
+    background-color: 
+}
+
+.hmdrbck {
+    background-color: rgb(255, 255, 255, 0.3);
+}
+
+.button1 {
+    position: relative;
+    top:-20px;
+}
+
+.betgam {
+    border-style: dashed;
+    border-color: white;
+    position: relative;
+    left: 100px;
+    top: 100px;
+    width: 10%;
+    color: white;
+    padding: 10px;
+}
+
+.elderscrolls1 {
+    border-style: dashed;
+    border-color: white;
+    position: relative;
+    left: 100px;
+    top: 150px;
+    width: 10%;
+    color: white;
+        padding: 10px;
+
+}
+
+button {
+    border-style: solid;
+    border-color: green;
+    background-color: ghostwhite;
+    padding: 10px;
+}
+
+
+
+
+.elder-scrolls-page {
+    background-image: url(Skyrim-Logo.png);
+        background-size: cover;
+}
+
+.esshbck {
+    background-color: rgb(0, 0, 0, 0.6);
+}
+
+.essh {
+    color: white;
+    text-align: center;
+    border-style: solid;
+    border-color: black;
+}
+
+footer {
+    background-color: gray;
+    text-align: center;
+    border-style: solid;
+    border-color: black;
+}
+
+.briefesh {
+    position: relative;
+    top: 10px;
+    width: 10%;
+    border-style: dashed;
+    border-color: black;
+    color: black;
+    padding-bottom: 10px;
+}
+
+.esharena {
+    position: relative;
+    top: 20px;
+    width: 25%;
+    border-style: dashed;
+    border-color: black;
+    color: black;
+    padding-bottom: 10px;
+}
