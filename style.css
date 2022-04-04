@@ -1,99 +1,59 @@
+.html {
+width: 1920px;
+height: 1080px;
+}
 
-.indexpg {
-    background-image: url(428578.png);
+header {
+    border-style: solid;
+    border-color: black;
+    opacity: 85%;
+    height: 40vh;
+    width: 100%;
+    display: inline-block;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(Australia1.jpg);
+    background-attachment: fixed;
 }
 
-.hmdr {
-    font-size: 25;
-    color: white;
-    text-align: center;
-    border-style: solid;
-    border-color: darkgreen;
-    background-color: 
-}
-
-.hmdrbck {
-    background-color: rgb(255, 255, 255, 0.3);
-}
-
-.button1 {
+.Navbar {
+    background-color: lightgreen;
+    height: 7vh;
     position: relative;
-    top:-20px;
+    top: 21vh;
+    display: block;
 }
 
-.betgam {
-    border-style: dashed;
-    border-color: white;
+.Navbar button {
+    background-color: green;
+    height: 6vh;
+    margin-left: 5px;
     position: relative;
-    left: 100px;
-    top: 100px;
-    width: 10%;
-    color: white;
-    padding: 10px;
+    top: 3px;
 }
 
-.elderscrolls1 {
-    border-style: dashed;
-    border-color: white;
-    position: relative;
-    left: 100px;
-    top: 150px;
-    width: 10%;
-    color: white;
-        padding: 10px;
-
-}
-
-button {
-    border-style: solid;
-    border-color: green;
-    background-color: ghostwhite;
-    padding: 10px;
-}
-
-
-
-
-.elder-scrolls-page {
-    background-image: url(Skyrim-Logo.png);
-        background-size: cover;
-}
-
-.esshbck {
-    background-color: rgb(0, 0, 0, 0.6);
-}
-
-.essh {
-    color: white;
-    text-align: center;
-    border-style: solid;
-    border-color: black;
-}
-
-footer {
-    background-color: gray;
-    text-align: center;
-    border-style: solid;
-    border-color: black;
-}
-
-.briefesh {
-    position: relative;
-    top: 10px;
-    width: 10%;
-    border-style: dashed;
-    border-color: black;
+.Navbar a:hover {
     color: black;
-    padding-bottom: 10px;
+}
+.Navbar button:hover {
+    color: black;
+    background-color: greenyellow;
 }
 
-.esharena {
+.Navbar a {
+    color: gold;
+    text-decoration: none;
     position: relative;
-    top: 20px;
-    width: 25%;
-    border-style: dashed;
-    border-color: black;
-    color: black;
-    padding-bottom: 10px;
+    font-size: large;
+    height: 10px;
+
+}
+
+.parralax {
+    background-image: url(Australia2.jpg);
+    background-attachment: fixed;
+    background-size:cover;
+    background-repeat:no-repeat;
+    min-height:200vh;
+    width: 100%;
 }
