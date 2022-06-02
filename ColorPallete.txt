@@ -1,0 +1,5 @@
+Xanthic(yellow)#F2F230
+Lava(red)#C42021
+Bleu De France(blue)#3083DC
+Rich Black Fogra 29(Black)#131B23
+Spanish Green(Green)#018E42
