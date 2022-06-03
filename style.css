@@ -41,10 +41,10 @@ p {
 /* Navbar 1 */
 .Navbar1 {
     position: absolute;
-    top: 15px; left: 550px; right: 0px; bottom: 0px;
+    top: 15px; left: 650px; right: 0px; bottom: 0px;
     transition: 0.5s all;
     z-index: 2;
-    width: 50%;
+    width: 40%;
     height: 50px;
 }
 
@@ -115,9 +115,9 @@ to {top: 15vh;}
 
 .imgtext {
     position: absolute;
-    color: white;
+    color: black;
     z-index: 1;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.2);
     top: 155px;
     text-align: center;
     font-size: 12px;
@@ -127,7 +127,7 @@ to {top: 15vh;}
 /*Footer*/
 .foot {
 position: absolute;
-top: 1190px; right: 0px; left: 0px; bottom: 0px;
+top: 1200px; right: 0px; left: 0px; bottom: 0px;
 background-color: #2b4c6b;
 text-align: center;
 width: 100%;
@@ -193,7 +193,7 @@ height: 140px;
     position: absolute;
     top: 0px; bottom: 0px; right: 0px; left: 0px;
     z-index: 1;
-    background-image: url(Images/sydney-opera-house-354375_1920.jpg);
+    background-image: url(sydney-opera-house-354375_1920.jpg);
     width: 100%;
     height: 105%;
     background-attachment: fixed;
@@ -201,6 +201,19 @@ height: 140px;
     background-repeat: no-repeat;
     background-size: cover;
     }
+
+    .paralax3 {
+        position: absolute;
+        top: 0px; bottom: 0px; right: 0px; left: 0px;
+        z-index: 1;
+        background-image: url(Images/sunset-1373186_1920.jpg);
+        width: 100%;
+        height: 105%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        }
     
 .ptext1 {
         float: left;
@@ -227,9 +240,7 @@ height: 140px;
     }
 
     .patxt {
-        text-align: left;
-        width: 100px;
+        text-align: center;
         margin-top: 15vh;
-        margin-left: 100px;
     }
 /*Paralax 1 End*/
