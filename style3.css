@@ -1,0 +1,275 @@
+html {
+    scroll-behavior: smooth;  
+    max-width: 100%;  
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow-y: auto;
+}
+
+p {
+    text-align: center;
+}
+
+/* #1071a (Blue) #535966 (grey) #24232a (black) #2b4c6b (darkerblue) #8a725d (brown) #8ca0bc (light blue) #b2bcc5 ( lighter grey) #bead9d (greyer) #6f525a (violet) #5d7468 (grey) */
+
+.containercontact {
+    position: absolute;
+    top: 0px; bottom: 0px; right: 0px; left: 0px;
+    z-index: 1;
+    background-color:#FFAA33;
+    width: 100%;
+    height: 170%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+.contactform {
+    position: relative;
+    margin-top: 10vh;
+    margin-left: 5vh;
+    float: left;
+}
+
+.contacttxt {
+    position: relative;
+    text-align: center;
+    margin-top: 15vh; margin-right: 20vh;
+    float: right;
+    border-style: solid; border-color: #2b4c6b;
+    width: 25%;
+}
+
+.hdrtxt {
+    position: absolute;
+    color: white;
+    z-index: 2;
+    margin-left: 5vh;
+    top: -15px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.navactive{
+    color: lightgreen;
+}
+
+.Navbar1 {
+    position: absolute;
+    float: right;
+    top: 15px; right: 0px; bottom: 0px;
+    transition: 0.5s all;
+    z-index: 2;
+    max-width: 28%;
+    height: 50px;
+}
+
+.Navbar1 a {
+font-size: 18px;
+position: relative;
+color: white;
+text-decoration: none;
+text-align: center;
+float: left;
+width: 110px;
+height: 50px;
+}
+
+.Navbar1 a:hover {
+    color: #2b4c6b;
+    transition: 0.5s;
+}
+
+.txtsection {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-style: solid;
+    border-color: #2b4c6b;
+    top: 120px;
+    margin-left: 10vh;
+    float: left;
+    width: 25%;
+    height: 30%;
+}
+
+.patxt {
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+
+.containersep1 {
+    position: absolute;
+    text-align: center;
+    color: white;
+    border-right-style: solid; border-top-style: solid; border-bottom-style: solid;
+    border-color: #2b4c6b;
+    color: black;
+    font-size: 60px;
+    z-index: 1;
+    top: 640px; bottom: 0px; right: 0px; left: 0px;
+    background-color: #4169E1;
+    width: 45%;
+    height: 75px;
+}
+
+.conseptxt {
+    color: white;
+}
+
+.container1 {
+    position: absolute;
+    top: 680px; bottom: 0px; right: 0px; left: 0px;
+    width: 100%; 
+    height: 100%;
+    background-color: #FFAA33; background-attachment: fixed; background-position: center; background-repeat: no-repeat;
+}
+
+
+/* Images for para1 */
+@keyframes ImgfamAn {
+    from {top: 15vh;}
+    to {top: 25vh;}
+}
+
+.imgsec {
+    z-index: 1;
+    animation-name: ImgfamAn;
+    animation-duration: 4s;
+    position: relative;
+    float: left;
+    border-style: solid;
+    margin-left: 12vh;
+    top: 25vh; right: 0px; left: 10px; bottom: 0px;
+    max-width: 100%;
+    height: 320px;
+    color: black;
+    background-color: #24232a;
+}
+
+.imgsectxt {
+    position: absolute;
+    height: 166px;
+    color: black;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.2);
+    top: 155px;
+    text-align: center;
+    font-size: 12px;
+}
+/* End of images for para1*/
+
+.container3 {
+    position: absolute;
+    top: 780px; bottom: 0px; right: 0px; left: 0px;
+    width: 100%; 
+    height: 75%;
+    background-image: url(images/melbgif.gif); background-attachment: fixed; background-position: center; background-repeat: no-repeat;
+}
+
+/*Footer*/
+.foot {
+position: absolute;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+top: 1100px; right: 0px; left: 0px; bottom: 0px;
+background-color: #4169E1;
+text-align: center;
+width: 100%;
+height: 140px;
+}
+
+.fttxt1 {
+    float: left;
+    color: white;
+    margin-top: 5vh;
+    margin-left: 5vh;
+    font-size: 40px;
+}
+
+.fttxt2 {
+    float: right;
+    color: white;
+    margin-right: 5vh;
+    margin-top: 2vh;
+   width: 25%;
+}
+/*Footer End*/
+
+/*Paralax 2 & Inter*/
+
+    .ptext3 {
+        position: absolute;
+        z-index: 1;
+        color: black;
+        font-size: 15px;
+        top: 10vh;
+        text-align: center;
+        max-width: 50%;
+        height: 500px;
+    }
+
+/*Paralax End*/
+
+/*imglad*/
+.imglad {
+    position: relative;
+    z-index: 2;
+    border-style: solid;
+    color: white;
+    top: 20px; left: 0px; right: 0px; bottom: 0px;
+    margin-left: 12vh;
+    background-color: #24232a;
+    max-width: 200px;
+    max-height: 450px;
+}
+
+.imgladtxt {
+    position: rela;
+    font-size: 10px;
+    z-index: 1;
+}
+/*imgladend*/
+
+/*Paralax 1*/
+
+
+    .paralax3 {
+        position: absolute;
+        top: 0px; bottom: 0px; right: 0px; left: 0px;
+        z-index: 1;
+        background-image: url(Images/sunset-1373186_1920.jpg);
+        width: 100%;
+        height: 105%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        }
+    
+.ptext1 {
+        float: left;
+        background: rgba(255, 255, 255, 0.2); 
+        height: 980px;
+        width: 48%;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    
+.ptext2 {
+        float: right;
+        background: rgba(255, 255, 255, 0.2); 
+        height: 980px;
+        width: 60%px;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+/*Paralax 1 End*/

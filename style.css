@@ -1,0 +1,267 @@
+html {
+    scroll-behavior: smooth;  
+    max-width: 100%;  
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow-y: auto;
+}
+
+p {
+    
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 6vh;
+}
+
+/* #1071a (Blue) #535966 (grey) #24232a (black) #2b4c6b (darkerblue) #8a725d (brown) #8ca0bc (light blue) #b2bcc5 ( lighter grey) #bead9d (greyer) #6f525a (violet) #5d7468 (grey) */
+
+.container {
+    position: absolute;
+    top: 0px; bottom: 0px; right: 0px; left: 0px;
+    z-index: 1;
+    background-image: url(images/koala-630117_1920.jpg);
+    width: 100%;
+    height: 105%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+.hdrtxt {
+    position: absolute;
+    color: white;
+    z-index: 2;
+    margin-left: 5vh;
+    top: -15px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.navactive{
+    color: lightgreen;
+}
+
+.Navbar1 {
+    position: absolute;
+    color: black;
+    top: 15px; left: 900px; right: 0px; bottom: 0px;
+    transition: 0.5s all;
+    z-index: 2;
+    width: 27%;
+    height: 50px;
+}
+
+.Navbar1 a {
+font-size: 18px;
+position: relative;
+color: #FFAA33;
+text-decoration: none;
+text-align: center;
+float: left;
+width: 110px;
+height: 50px;
+}
+
+.Navbar1 a:hover {
+    color: #2b4c6b;
+    transition: 0.5s;
+}
+
+.txtsection {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-style: solid;
+    border-color: #2b4c6b;
+    top: 120px;
+    margin-left: 10vh;
+    float: left;
+    width: 25%;
+    height: 30%;
+}
+
+.patxt {
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+
+.containersep1 {
+    position: absolute;
+    text-align: center;
+    color: white;
+    border-right-style: solid; border-top-style: solid; border-bottom-style: solid;
+    border-color: #2b4c6b;
+    color: black;
+    font-size: 60px;
+    z-index: 1;
+    top: 640px; bottom: 0px; right: 0px; left: 0px;
+    background-color: #4169E1;
+    width: 45%;
+    height: 75px;
+}
+
+.conseptxt {
+    color: white;
+}
+
+.container1 {
+    position: absolute;
+    top: 680px; bottom: 0px; right: 0px; left: 0px;
+    width: 100%; 
+    height: 100%;
+    background-color: #FFAA33; background-attachment: fixed; background-position: center; background-repeat: no-repeat;
+}
+
+
+/* Images for para1 */
+@keyframes ImgfamAn {
+    from {top: 15vh;}
+    to {top: 25vh;}
+}
+
+.imgsec {
+    z-index: 1;
+    animation-name: ImgfamAn;
+    animation-duration: 4s;
+    position: relative;
+    float: left;
+    border-style: solid;
+    margin-left: 12vh;
+    top: 25vh; right: 0px; left: 10px; bottom: 0px;
+    max-width: 100%;
+    height: 320px;
+    color: black;
+    background-color: #24232a;
+}
+
+.imgsectxt {
+    position: absolute;
+    height: 166px;
+    color: black;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.2);
+    top: 155px;
+    text-align: center;
+    font-size: 12px;
+}
+/* End of images for para1*/
+
+.container3 {
+    position: absolute;
+    top: 780px; bottom: 0px; right: 0px; left: 0px;
+    width: 100%; 
+    height: 75%;
+    background-image: url(images/melbgif.gif); background-attachment: fixed; background-position: center; background-repeat: no-repeat;
+}
+
+/*Footer*/
+.foot {
+position: absolute;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+top: 1280px; right: 0px; left: 0px; bottom: 0px;
+background-color: #4169E1;
+text-align: center;
+width: 100%;
+height: 140px;
+}
+
+.footmel {
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    top: 2600px; right: 0px; left: 0px; bottom: 0px;
+    background-color: #4169E1;
+    text-align: center;
+    width: 100%;
+    height: 140px;
+    }
+
+.fttxt1 {
+    float: left;
+    color: white;
+    margin-top: 5vh;
+    margin-left: 5vh;
+    font-size: 40px;
+}
+
+.fttxt2 {
+    float: right;
+    color: white;
+    margin-right: 5vh;
+    margin-top: 2vh;
+   width: 25%;
+}
+/*Footer End*/
+
+/* Melbourne page */
+
+.container3 {
+    position: absolute;
+    top: 0px; bottom: 0px; right: 0px; left: 0px;
+    z-index: 1;
+    background-image: url(images/koala-630117_1920.jpg);
+    width: 100%;
+    height: 105%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+    .container4 {
+        position: absolute;
+        top: 680px; bottom: 0px; right: 0px; left: 0px;
+        width: 100%; 
+        height: 100%;
+        background-color: #FFAA33; background-attachment: fixed; background-position: center; background-repeat: no-repeat;
+    }
+
+    .con4link {
+        position: absolute;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .container5 {
+        position: absolute;
+        top: 1325px; bottom: 0px; right: 0px; left: 0px;
+        width: 100%; 
+        height: 100%;
+        background-color: green; background-attachment: fixed; background-position: center; background-repeat: no-repeat;
+    }
+
+    .con5img {
+        position: absolute;
+        margin-left: 1vh;
+        top: 300px;
+    }
+
+    .container6 {
+        position: absolute;
+        top: 1970px; bottom: 0px; right: 0px; left: 0px;
+        width: 100%; 
+        height: 100%;
+        background-color: #FFAA33; background-attachment: fixed; background-position: center; background-repeat: no-repeat;
+    }
+
+    .containersep2 {
+        position: absolute;
+        text-align: center;
+        color: white;
+        border-right-style: solid; border-top-style: solid; border-bottom-style: solid;
+        border-color: #2b4c6b;
+        color: black;
+        font-size: 60px;
+        z-index: 1;
+        top: 1280px; bottom: 0px; right: 0px; left: 0px;
+        background-color: #4169E1;
+        width: 45%;
+        height: 75px;
+    }
+
+    
